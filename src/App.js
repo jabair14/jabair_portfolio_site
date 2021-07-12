@@ -1,5 +1,8 @@
 import NavBar from './components/NavBar'
-import CarouselDiv from './components/CarouselDiv'
+import About from './components/About'
+import Contact from './components/Contact'
+import Home from './components/Home'
+import { Switch, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -8,8 +11,19 @@ function App() {
       <h1> Jabair Portfolio Site</h1>
       <br></br>
       <NavBar/>
-      <br></br>
-      <CarouselDiv/>
+      
+      <Switch>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+        <Route exact path="/home">
+          <Home />
+        </Route>
+      </Switch>
+      
      
     </div>
   );
