@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* .App {
+  background-color:beige
+} */

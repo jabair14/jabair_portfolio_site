@@ -1,4 +1,6 @@
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import githubLogo from '../GitHub-Mark-Light-32px.png'
+
 
 function CarouselDiv (){
     return (
@@ -13,8 +15,12 @@ function CarouselDiv (){
                         width="300px"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>SoundClash</h3>
+                        <p>Online market place for musicians and sound designers.</p>
+                        <a href="https://github.com/jabair14/soundclash-frontend">
+                            <img src={githubLogo} alt="githubIcon" className="githubIcon">
+                            </img>
+                        </a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +33,12 @@ function CarouselDiv (){
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Brewmaster</h3>
+                        <p>Review and rating platform for beers.</p>
+                        <a href="https://github.com/jabair14/brewmaster">
+                            <img src={githubLogo} alt="githubIcon" className="githubIcon">
+                            </img>
+                        </a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,8 +51,12 @@ function CarouselDiv (){
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Booker</h3>
+                        <p>A Booking and scheduling app for DJs</p>
+                        <a href="https://github.com/jabair14/react-booker-frontend">
+                            <img src={githubLogo} alt="githubIcon" className="githubIcon">
+                            </img>
+                        </a>
                         
                     </Carousel.Caption>
                 </Carousel.Item>
