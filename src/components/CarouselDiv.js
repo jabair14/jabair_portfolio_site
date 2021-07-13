@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import githubLogo from '../GitHub-Mark-Light-32px.png'
+import githubLogo from '../GitHub-Mark-Light-32px.png';
+import soundclashScreen from '../soundclash preview.png';
+import bookerScreen from '../booker preview.png';
 
 
 function CarouselDiv (){
@@ -9,7 +11,7 @@ function CarouselDiv (){
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i1.sndcdn.com/avatars-000749550670-vg2ycn-t500x500.jpg"
+                        src={soundclashScreen}
                         alt="First slide"
                         height="600px"
                         width="300px"
@@ -44,7 +46,7 @@ function CarouselDiv (){
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i1.sndcdn.com/avatars-000749550670-vg2ycn-t500x500.jpg"
+                        src={bookerScreen}
                         alt="Third slide"
                         height="600px"
                         width="300px"
