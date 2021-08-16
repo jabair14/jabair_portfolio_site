@@ -28,7 +28,7 @@ function CarouselDiv (){
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://i1.sndcdn.com/avatars-000749550670-vg2ycn-t500x500.jpg"
+                        src="https://miro.medium.com/max/1141/1*10UZM-Gn4eBNAhgU9bQpFg.jpeg"
                         alt="Second slide"
                         height="600px"
                         width="300px"

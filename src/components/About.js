@@ -2,6 +2,7 @@ import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Photo from '../jabair_photo.JPG'
 
 
 
@@ -9,7 +10,7 @@ function About () {
     return (
         <>
         <h1> About Page </h1>
-        <Image src="https://i1.sndcdn.com/avatars-000749550670-vg2ycn-t500x500.jpg" fluid />
+        <Image src={Photo} fluid style={{maxHeight: "300px", maxWidth: "300px"}} />
         <br></br>
         <br></br>
 
