@@ -2,7 +2,7 @@ import NavBar from './components/NavBar'
 import About from './components/About'
 import Contact from './components/Contact'
 import Home from './components/Home'
-import { useHistory } from 'react-router-dom'
+// import { useHistory } from 'react-router-dom'
 import { Switch, Route } from "react-router-dom";
 import './App.css';
 
