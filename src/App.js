@@ -14,7 +14,7 @@ function App() {
       {/* <h1> Jabair Portfolio Site</h1> */}
       <br></br>
       <NavBar/>
-      <Home />
+      {/* <Home /> */}
       
       <Switch>
         <Route exact path="/about">
