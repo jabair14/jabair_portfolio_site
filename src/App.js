@@ -8,9 +8,10 @@ import './App.css';
 
 function App() {
 
-  let history = useHistory()
-  
-  history.push("/home")  
+  // let history = useHistory()
+
+  // history.push("/home")  
+
   return (
     <div 
       className="App"
@@ -28,7 +29,7 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
-        <Route exact path="/home">
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
