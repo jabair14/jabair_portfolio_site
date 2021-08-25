@@ -9,7 +9,7 @@ import Photo from '../jabair_photo.JPG'
 function About () {
     return (
         <>
-        <h1> About Page </h1>
+        <h1> About </h1>
         <Image src={Photo} fluid style={{maxHeight: "300px", maxWidth: "300px"}} />
         <br></br>
         <br></br>
