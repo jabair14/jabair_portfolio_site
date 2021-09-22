@@ -17,12 +17,11 @@ function About () {
             <Container>
                 <Row>
                     <Col>
-                    Experienced in Ruby on Rails, JavaScript, and React based programming with a background 
-                    in music production and music education. Possess strong skills in project management and 
+                    Experienced in Ruby on Rails, JavaScript, and React based programming languages with a background 
+                    in music production and music education. Possesses strong skills in project management and 
                     collaboration that help innovative companies meet sales goals and further expand their client base. 
                     Over the past decade as a small business owner and independent musician I learned to code in order 
-                    to help other artists diversify their revenue streams and create more ways to generate income 
-                    for independent musicians.
+                    to help other artists diversify their revenue streams and serve other communities in need. 
                     </Col>
                 </Row>
             </Container>
